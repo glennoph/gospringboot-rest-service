@@ -4,7 +4,7 @@ See https://spring.io/guides/gs/rest-service/
 
 create hello world rest service with spring
 
-# Restful Web Service projec
+# Restful Web Service project
 
 ## Restful web service definition
 > Representational state transfer (REST) is a software architectural style that defines a set of constraints to be used for creating Web services. ... In a RESTful Web service, requests made to a resource's URI will elicit a response with a payload formatted in HTML, XML, JSON, or some other format. (from wikipedia)
@@ -56,3 +56,9 @@ curl localhost:8080/greeting ## returns {"id":1,"content":"Hello, World!"}
 curl localhost:8080/greeting?name=someone ## returns {"id":3,"content":"Hello, someone!"}
 ``` 
 
+## import with intellij
+* specify as gradle project 
+* specify build.gradle as the build script
+* update the gradle configuration to build and run the service
+* add gradle wrapper to git
+* commit files to git and push to github
