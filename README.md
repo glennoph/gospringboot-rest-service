@@ -13,7 +13,7 @@ create hello world rest service with spring
 * accept http get requests:
 `http://localhost:8080/greeting`
 * respond with json greeting 
-`xxx`
+`{"id":1,"content":"Hello, World!"}`
 
 ## tools
 * emacs
